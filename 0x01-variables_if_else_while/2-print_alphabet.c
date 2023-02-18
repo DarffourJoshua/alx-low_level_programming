@@ -1,4 +1,5 @@
 #include <stdio.h>
+#include <ctype.h>
 
 /**
  * main - Entry point
@@ -8,11 +9,11 @@
 
 int main(void)
 {
-	char alphabet;
+	char  low;
 
-	for (alphabet = 'a'; alphabet <= 'z'; alphabet++)
-		putchar (alphabet);
-		putchar ('\n');
+	for (low = 'a'; low <= 'z'; low++)
+		putchar (low);
+			putchar ('\n');
 
 	return (0);
 }
