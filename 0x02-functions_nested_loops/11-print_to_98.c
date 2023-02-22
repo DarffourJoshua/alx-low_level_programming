@@ -22,7 +22,7 @@ void print_to_98(int num)
 			}
 			else
 			{
-				printf("%d ,", num);
+				printf("%d, ", num);
 			}
 		}
 	}
@@ -38,7 +38,7 @@ void print_to_98(int num)
 			}
 			else
 			{
-				printf("%d ,", num);
+				printf("%d, ", num);
 			}
 		}
 	}
