@@ -29,11 +29,12 @@ void times_table(void)
 			}
 			else
 			{
-				_putchar (n / 10 + '0');
-				_putchar (n % 10 + '0');
+					_putchar (n / 10 + '0');
+					_putchar (n % 10 + '0');
 
 				if (j == 9)
-					_putchar (',');
+					continue;
+						_putchar (',');
 				_putchar (' ');
 			}
 		}
