@@ -2,12 +2,12 @@
 
 /**
  * total_sum - check the description
- * Description: a program that computes and prints the sum of all the 
+ * Description: a program that computes and prints the sum of all the
  * multiples of 3 or 5 below 1024 (excluded), followed by a new line.
  * return: nothing
  */
 
-void total_sum()
+void total_sum(void)
 {
 	int i, sum = 0;
 
@@ -22,7 +22,8 @@ void total_sum()
 
 /**
  * main - check the description
- * return: Always 0
+ * Description: call total_sum()
+ * return: 0
  */
 
 int main(void)
