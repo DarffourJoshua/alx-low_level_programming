@@ -14,7 +14,19 @@ void total_sum()
 	for (i = 0; i < 1024; i++)
 	{
 		if (i % 3 == 0 || i % 5 == 0)
-			printf("%d", sum);
-		printf("\n");
+			sum += i;
 	}
+	printf("%d", sum);
+	printf("\n");
+}
+
+/**
+ * main - check the description
+ * return: Always 0
+ */
+
+int main(void)
+{
+	total_sum();
+	return (0);
 }
