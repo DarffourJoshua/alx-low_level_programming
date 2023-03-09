@@ -1,7 +1,8 @@
 #include "main.h"
 
 /**
- * _print_rev_recurion - a function that prints a string in reverse.
+ * _print_rev_recurion - a function that prints a string in reverse,
+ * followed by a new line.
  * @s: the string parameter
  * Return: Nothing
  */
