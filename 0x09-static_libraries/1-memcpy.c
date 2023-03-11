@@ -10,6 +10,6 @@
 
 char *_memcpy(char *dest, char *src, unsigned int n)
 {
-	char *start = *src, *end = dest;
+	char *start = src, *end = dest;
 	return (end);
 }

@@ -30,7 +30,7 @@ int _atoi(char *s)
 		s++;
 	}
 
-	if (sign < s)
+	if (sign < *s)
 		result = result * -1;
 
 	return (result);
